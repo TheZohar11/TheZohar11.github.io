@@ -163,22 +163,24 @@ body {
 }
 @media (max-width: 600px) {
   p {
-      font-size: 0.9rem; /* Slightly smaller text on smaller screens */
-      line-height: 1.4; /* Adjust line spacing */
-      padding: 10px; /* Add some padding to avoid text touching screen edges */
-      max-width: 100%; /* Allow the paragraph to take up more space on small screens */
+    font-size: 0.9rem; /* Slightly smaller text on smaller screens */
+    line-height: 1.4; /* Adjust line spacing */
+    padding: 10px; /* Add some padding to avoid text touching screen edges */
+    max-width: 100%; /* Allow the paragraph to take up more space on small screens */
   }
-  
+
   .about {
-      display: block; /* Change the grid or flexbox layout to block if things get too cramped */
+    display: block; /* Change the grid or flexbox layout to block if things get too cramped */
   }
-  
+
   /* Adjust other elements like h1, h2 for small screens */
-  h1, h2 {
-      font-size: 1.5rem; /* Adjust heading sizes for smaller screens */
+  h1,
+  h2 {
+    font-size: 1.5rem; /* Adjust heading sizes for smaller screens */
   }
 
   img {
-      width: 80%; /* Reduce image size to fit smaller screens */
-      margin: 20px auto; /* Center the image */
+    width: 80%; /* Reduce image size to fit smaller screens */
+    margin: 20px auto; /* Center the image */
   }
+}
