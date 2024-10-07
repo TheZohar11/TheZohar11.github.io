@@ -1,0 +1,163 @@
+.zohar {
+  grid-area: photo;
+  border-radius: 50%;
+  width: 470px;
+  height: 470px;
+  border: 5px solid black;
+  padding: auto;
+}
+.about {
+  padding: 20px;
+  gap: 40px;
+  display: grid;
+  grid-template-areas:
+    "photo text1"
+    "photo text2"
+    "photo paragraph";
+  margin: 50px auto;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+  row-gap: 10px;
+
+  align-items: start; /* Align items to the top */
+}
+h1,
+h2,
+p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+h1 {
+  grid-area: text1;
+  font-size: 3rem;
+  font-weight: 700;
+}
+h2 {
+  grid-area: text2;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+p {
+  font: 1em sans-serif;
+  grid-area: paragraph;
+  font-style: italic;
+  font-weight: 20;
+  font-size: 1rem;
+}
+body {
+  background-color: #f9f5f0;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* header style*/
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Styling */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; /* Background color for the header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  margin-right: 10px; /* Space between logo and title */
+}
+
+.title {
+  font-weight: 600; /* Bold text for the title */
+}
+
+.nav-linkedin {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adds space between the links and LinkedIn logo */
+}
+
+.nav-links a {
+  margin: 0 10px; /* Space between navigation links */
+  text-decoration: none;
+  color: #333; /* Text color */
+}
+
+.linkedin-logo {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+}
+/*contact,projects and resume list*/
+
+.item {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.item:visiteds {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.circles {
+  display: flex; /* Flexbox to align items in a row */
+  justify-content: center; /* Optional: To center all items horizontally */
+  gap: 1rem; /* Optional: Space between items */
+}
+
+.circles li {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #444;
+  color: #fff;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border: 2px solid black;
+}
+.item:hover {
+  background-color: #d02e6f;
+  border: 2px solid rgb(83, 63, 63);
+}
+
+@media screen and (min-width: 950px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  p {
+    max-width: 50%;
+  }
+}
