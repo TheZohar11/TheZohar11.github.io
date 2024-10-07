@@ -127,6 +127,7 @@ body {
   display: flex; /* Flexbox to align items in a row */
   justify-content: center; /* Optional: To center all items horizontally */
   gap: 1rem; /* Optional: Space between items */
+  margin-bottom: 5%;
 }
 
 .circles li {
@@ -180,7 +181,13 @@ body {
   }
 
   img {
-    width: 70%; /* Reduce image size to fit smaller screens */
-    margin: 20px auto; /* Center the image */
+    width: 65%; /* Reduce image size to fit smaller screens */
+    margin: 20 20 20 20; /* Center the image */
+  }
+  .circles {
+    display: flex; /* Flexbox to align items in a row */
+    justify-content: space-between;
+    gap: 0.7rem; /* Optional: Space between items */
+    margin-bottom: 5%;
   }
 }
