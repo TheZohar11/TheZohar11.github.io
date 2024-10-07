@@ -161,7 +161,7 @@ body {
     max-width: 50%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   p {
     font-size: 0.9rem; /* Slightly smaller text on smaller screens */
     line-height: 1.4; /* Adjust line spacing */
@@ -180,7 +180,7 @@ body {
   }
 
   img {
-    width: 80%; /* Reduce image size to fit smaller screens */
+    width: 70%; /* Reduce image size to fit smaller screens */
     margin: 20px auto; /* Center the image */
   }
 }
