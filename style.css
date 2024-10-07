@@ -147,6 +147,31 @@ body {
   background-color: #d02e6f;
   border: 2px solid rgb(83, 63, 63);
 }
+/*footer design*/
+.footer-contact {
+  border-top: 1px solid #333;
+  display: grid;
+  grid-template-areas:
+    "email1 linked1"
+    "email2 linked2";
+  grid-template-columns: 1fr 1fr;
+  gap: 30%;
+  margin-bottom: 10%;
+}
+#email1 {
+  margin-left: 25%;
+  grid-area: email1;
+}
+#email2 {
+  margin-left: 25%;
+  grid-area: email2;
+}
+#linked1 {
+  grid-area: linked1;
+}
+#linked2 {
+  grid-area: linked2;
+}
 
 @media screen and (min-width: 950px) {
   h1 {
