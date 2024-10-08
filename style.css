@@ -221,8 +221,8 @@ body {
   }
 
   .circles li {
-    width: 100px; /* Smaller width */
-    height: 100px; /* Smaller height */
+    width: 120px; /* Smaller width */
+    height: 120px; /* Smaller height */
     border-radius: 50%; /* Keep perfect circle */
     background-color: #444;
     color: #fff;
