@@ -220,6 +220,18 @@ body {
     margin-right: 5%;
   }
 }
+@media (max-width: 768px) {
+  .circles {
+    margin: 0 5%; /* Adds 5% margin on both sides */
+    gap: 1rem;
+  }
+
+  .circles li {
+    width: 120px; /* Slightly smaller on mobile */
+    height: 120px;
+    border-radius: 50%;
+  }
+}
 
 /* Modal Styles */
 .modal {
