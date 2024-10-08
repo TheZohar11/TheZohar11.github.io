@@ -219,6 +219,20 @@ body {
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  .circles li {
+    width: 100px; /* Smaller width */
+    height: 100px; /* Smaller height */
+    border-radius: 50%; /* Keep perfect circle */
+    background-color: #444;
+    color: #fff;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    border: 2px solid black;
+  }
 }
 
 /* Modal Styles */
