@@ -172,6 +172,13 @@ body {
 #linked2 {
   grid-area: linked2;
 }
+@media (max-width: 700px) {
+  .circles li {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+  }
+}
 
 @media screen and (min-width: 950px) {
   h1 {
@@ -221,8 +228,6 @@ body {
   }
 
   .circles li {
-    width: 120px; /* Smaller width */
-    height: 120px; /* Smaller height */
     border-radius: 50%; /* Keep perfect circle */
     background-color: #444;
     color: #fff;
