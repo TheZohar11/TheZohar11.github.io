@@ -1,22 +1,21 @@
-// Get modal elements- currently not in use
-/*
-const modal = document.getElementById("contactModal");
-const btn = document.getElementById("contactBtn");
-const span = document.querySelector(".close-btn");
+// Get the modal, button, and close elements
+const modal = document.getElementById("projectsModal");
+const projectsButton = document.getElementById("projects");
+const closeModalButton = document.getElementById("closeModal");
 
-// Open modal when button is clicked
-btn.onclick = function () {
-  modal.style.display = "flex"; // Display modal with flexbox
-};
+// Show the modal when the "Projects" button is clicked
+projectsButton.addEventListener("click", () => {
+  modal.style.display = "block";
+});
 
-// Close modal when the "x" button is clicked
-span.onclick = function () {
+// Hide the modal when the close button (X) is clicked
+closeModalButton.addEventListener("click", () => {
   modal.style.display = "none";
-};
+});
 
-// Close modal if clicking outside the modal content
-window.onclick = function (event) {
+// Hide the modal if the user clicks outside the modal content area
+window.addEventListener("click", (event) => {
   if (event.target === modal) {
     modal.style.display = "none";
   }
-};*/
+});

@@ -43,6 +43,16 @@
             />
           </a>
         </div>
+        <!-- GitHub Icon -->
+        <div class="github">
+          <a href="https://github.com/TheZohar11" target="_blank">
+            <img
+              src="https://i.ibb.co/bzwH0By/github.webp"
+              alt="github-logo"
+              class="github-logo"
+            />
+          </a>
+        </div>
       </div>
     </header>
 
@@ -79,26 +89,40 @@
           >resume</a
         >
       </li>
-      <li class="item" id="projects">
-        <a class="item" href="https://github.com/TheZohar11">projects</a>
+      <li class="item">
+        <button class="item" id="projects">projects</button>
       </li>
       <li class="item" id="contact">
         <a class="item" href="mailto:zoharsim2000@gmail.com">contact</a>
       </li>
     </ul>
 
-    <!-- Modal Structure - currently not in use -->
-    <div id="contactModal" class="modal">
+    <!-- Modal for Project Descriptions -->
+    <div id="projectsModal" class="modal">
       <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <h2>Contact Information</h2>
-        <p>Email: zoharsim2000@gmail.com</p>
-        <p>
-          LinkedIn:
-          <a href="https://www.linkedin.com/in/" target="_blank"
-            >View Profile</a
-          >
-        </p>
+        <span id="closeModal" class="close">&times;</span>
+        <h2>Projects</h2>
+        <div class="project-description">
+          <h3>Project 1: Personal Portfolio</h3>
+          <p>
+            Created a personal portfolio using HTML, CSS, and JavaScript.
+            Showcases my skills, projects, and contact information.
+          </p>
+        </div>
+        <div class="project-description">
+          <h3>Project 2: Data Science Project</h3>
+          <p>
+            Used SQL, Pandas, Seaborn to analyze a World Cup database and
+            explore methods for predicting successful team bets.
+          </p>
+        </div>
+        <div class="project-description">
+          <h3>Project 3: Client-Server Communication</h3>
+          <p>
+            Built a client-server application in C++ to find the shortest path
+            between two edges, handling multiple clients simultaneously.
+          </p>
+        </div>
       </div>
     </div>
 
