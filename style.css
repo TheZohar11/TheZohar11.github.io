@@ -80,8 +80,8 @@ body {
 }
 
 .logo {
-  width: 40px; /* Adjust size as needed */
-  height: 40px; /* Adjust size as needed */
+  width: 40px;
+  height: 40px;
   margin-right: 10px; /* Space between logo and title */
 }
 
@@ -107,12 +107,12 @@ body {
 }
 
 .linkedin-logo {
-  width: 30px; /* Adjust size as needed */
-  height: 30px; /* Adjust size as needed */
+  width: 30px;
+  height: 30px;
 }
 .github-logo {
-  width: 22px; /* Adjust size as needed */
-  height: 22px; /* Adjust size as needed */
+  width: 22px;
+  height: 22px;
   margin-left: 10px; /* Space between LinkedIn and GitHub logos */
   border-radius: 5px;
 }
@@ -294,4 +294,12 @@ button {
 
 .project-description {
   margin-bottom: 20px;
+}
+.contact-description {
+  margin-bottom: 20px;
+}
+
+.email-logo {
+  width: 40px;
+  height: 40px;
 }

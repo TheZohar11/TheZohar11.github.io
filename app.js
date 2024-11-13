@@ -19,3 +19,22 @@ window.addEventListener("click", (event) => {
     modal.style.display = "none";
   }
 });
+
+//same for the cintact modal
+const contact = document.getElementById("contactModal");
+const contactButton = document.getElementById("contact-btn");
+const closeContactButton = document.getElementById("close-contact");
+
+contactButton.addEventListener("click", () => {
+  contact.style.display = "block";
+});
+
+closeContactButton.addEventListener("click", () => {
+  contact.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+  if (event.target === contact) {
+    contact.style.display = "none";
+  }
+});
